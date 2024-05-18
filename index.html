@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acciojob | Counter</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <h1 class="title">Counter using HTML</h1>
+    <div class="msg">
+        <div class="counter-msg">
+            Your Current Count is : 
+            <span id="count-value" class="count-value">0</span>
+        </div>
+        <div id="error-msg" class="error-msg">Error : Cannot go below 0</div>
+    </div>
+    <div class="counter-btns">
+        <button id="decrement-btn" type="button" onclick="decrement()">Decrement</button>
+        <button id="increment-btn" type="button" onclick="increment()">Increment</button>
+        <button id="clear-btn" type="button" onclick="clearValue()">Clear</button>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
+
